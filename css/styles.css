@@ -1,0 +1,170 @@
+body{
+    font-family: "Montserrat";
+}
+
+
+#title{
+    background-color: #3B9AE1;
+    color: #fff;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials{
+    background-color: #256D85;
+    text-align: center;
+    color: #fff;
+}
+
+#press{
+    background-color: #256D85;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+#cta{
+    background-color: #3B9AE1;
+    color: #fff;
+    padding: 3% 15%;
+    text-align: center;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: "montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.robot{
+    width: 100%;    
+    position: absolute;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Pacifico";
+    font-size: 2.5rem;
+    
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-weight: 300;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #256D85;
+    margin-bottom: 1rem;
+} 
+
+.icon:hover{
+    color: #3B9AE1 ;
+}
+
+.btn-outline-light:hover{
+    background-color: limegreen;
+    border-color: limegreen;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-logo{
+    width: 10%;
+    margin: 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 991px){
+
+    #title{
+        text-align: center;
+    }
+
+    .robot{
+        position: static;
+    }
+}
